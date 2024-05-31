@@ -1,0 +1,52 @@
+name: tempat_wisata
+description: "A new Flutter project."
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/images/tamansafari1.jpg
+    - assets/images/tamansafari2.jpg
+    - assets/images/tamansafari3.jpg
+    - assets/images/tamansafari4.jpg
+    - assets/images/tamansafari5.jpg
+    - assets/images/cimory1.jpg
+    - assets/images/cimory2.png
+    - assets/images/cimory3.jpg
+    - assets/images/cimory4.jpg
+    - assets/images/cimory5.jfif
+    - assets/images/truno1.jfif
+    - assets/images/truno2.jpg
+    - assets/images/truno3.jpg
+    - assets/images/truno4.jpg
+    - assets/images/saygon1.jpg
+    - assets/images/saygon2.jpg
+    - assets/images/saygon3.jpg
+    - assets/images/saygon4.jpg
+
+
+  fonts:
+    - family: Lobster
+      fonts:
+        - asset: assets/font/Lobster-Regular.ttf
+
+    - family: Oxygen
+      fonts:
+        - asset: assets/font/Oxygen-Bold.ttf
+        - asset: assets/font/Oxygen-Regular.ttf
